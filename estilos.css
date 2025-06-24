@@ -95,6 +95,9 @@ body {
   cursor: pointer;
   border-radius: 4px;
 }
+#scene p {
+  white-space: pre-line;
+}
 .scene-final {
   animation: glitch 1s infinite;
 }

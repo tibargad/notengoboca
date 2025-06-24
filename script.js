@@ -1,43 +1,96 @@
 const scenes = {
   2: {
-    text: "AM es un ser violento y sin amor por tu grupo, eso ya lo sabés de sobra. Te mantiene vivo pero te detesta. No sos más que un simple juguete. Pasás las horas entre desafíos que la máquina inventa para salirse de su aburrimiento.",
+    text: `AM es un ser violento y sin amor por nada que se parezca a un humano, eso ya lo sabés de sobra. 
+    Te mantiene vivo pero te detesta. No sos más que un simple juguete. Pasás las horas entre desafíos atroces que la máquina inventa para salir de su aburrimiento. 
+    Es el centesimonoveno año que seguimos vivos. AM mantiene el calendario a raya y se asegura de que lo sepamos. Hace días que nadie prueba bocado. 
+    Nimdok, no este su nombre original sino uno que se le hacía gracioso a la computadora, dice que debemos cruzar el desierto hacia las cuevas de hielo pues ahí hay latas con comida.
+     El ánimo parece elevarse en el grupo, aunque sé perfectamente que puede ser uno de sus tantos engaños.
+
+    TED: No vayamos, va a tener que darnos algo o vamos a morir.
+    NIMDOK: La ultima vez que comimos fueron gusanos.
+    Benny se estremeció.
+    ELLEN: Por favor Ted, tenemos que encontrar algo. Estoy segura de que pueden haber peras o manzanas del otro lado.
+`,
     img: "assets/images/escape.jpg",
     options: [
-      { text: "2.1	Seguir hasta el Valle de Obsolescencia", next: "3" },
-      { text: "2.2 Desafiar al resto del grupo y separarte.", next: "2.3" }
+      { text: "Seguir adelante con el grupo", next: "3" },
+      { text: "Irte por tu cuenta.", next: "2.3" }
     ]
   },
   2.3: {
-    text: "2.3 AM se aparece ante vos en sueños y te despertás en el campamento del grupo, sin saber como llegaste ahí.",
+    text: `TED: Estoy harto de ustedes y sus malditas inseguridades y quejas. ¿No ven que esto no tiene sentido?. 
+    ¿De qué sirve comer?. ¿De qué sirve el esfuerzo?.
+    
+    Corrés por tu cuenta hacia el desierto. Los demás intentan detenerte pero el hambre no les da fuerzas para alcanzarte.
+
+    De repente escuchas el crugido de cientos de máquinas en serie. Un ruido te ensordece, una palabra se apodera de tu cuerpo.
+
+    NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. NO. 
+
+    Un dolor insoportable te recorre cada célula del cuerpo. Tu existencia chilla comunicando que algo está MUY MAL.
+
+    Y todo se vuelve blanco.
+
+    Despertás en el campamento junto al grupo. Nadie sabe que ocurrió, salvo vos.
+    `,
     img: "assets/images/escape.jpg",
     options: [
-      { text: "2.1	Seguir hasta el Valle de Obsolescencia", next: "3" },
+      { text: "CONTINUAR", next: "3" },
     ]
   },
   3: {
-    text: "3. Benny intenta escapar.",
+    text: `Noté que Benny estaba perdiendo más y más la paciencia. Producto de las torturas a las que lo sometía la máquina el pobre infeliz se había vuelto absolutamente loco hacía años. Sus facciones parecían moverse independientemente unas de otras y tenía la mentalidad de un niño pequeño con la brutalidad de un peleador de boxeo. Creo que era el más afortunado de nosotros.
+
+Ellen: - ¡No, Benny! No vayas. ¡Sigamos adelante! ¡No, Benny, por favor! 
+Benny: - Voy a escaparme... Voy a escaparme - repitiéndolo una y otra vez. 
+
+Si bien podíamos pensar, decirle, vociferarle a AM cuanto insulto se nos ocurriese el límite estaba bastante claro: nadie podía escapar. Las consecuencias de participar en tales actos podían llevar a semanas de dolor, pánico y desesperación. Imagina todos los métodos de tortura que puede haber desarrollado la humanidad y ten en cuenta que están almacenados en la memoria de AM para que los elija como un niño en una tienda de caramelos.
+`
     img: "assets/images/tunel.jpg",
     options: [
-      { text: "3a Dejarlo ir para evitar las consecuencias.", next: "3.1" },
-      { text: "3b Ayudar a Ellen para evitar que Benny escape. ", next: "3.2" }
+      { text: "Dejarlo ir y evitar la ira de AM.", next: "3.1" },
+      { text: "AYUDAR a Ellen y evitar que escape ", next: "3.2" }
     ]
   },
   3.1: {
-    text: "3.1 AM ataca a Benny. Queda en el piso convulsionando.",
+    text: `Benny se trepó a un cubo de memoria y nos miró con la postura de un mono. Es lo que AM más hubiera querido. Ellen se quedó sufriendo pues sabía lo que iba a pasar. Ella era la única de nuestro grupo que aún parecía mantener emociones por otros seres. Yo la odiaba por eso, sentía rabia y escozor cada vez que escuchaba su patética voz. 
+Ellen: Oh, Ted, Nimdok, por favor, ayúdenlo, deténganlo antes que... 
+
+Las lágrimas bañaron sus ojos. Movió las manos sin saber qué hacer. Era demasiado tarde. Nadie quería estar al lado de Benny cuando pasaría lo que sabíamos que iba a pasar 
+
+Entonces comenzó a oírse el sonido. Era luz y sonido. Algo que comenzó a hacer brillar los ojos de Benny y a pulsar con creciente intensidad y con sonoridades no bien definidas,
+ que se fueron convirtiendo en ensordecedoras y luminosas a medida que la luz-sonido aumentaba. Sus manos se cruzaron sobre su pecho como las de
+  un chimpancé. Cada vez más fuerte. Me llevé las manos a los lados de la cabeza para tratar de ahogar el ruido, pero de nada sirvió. 
+  Atravesaba todo obstáculo y me hacia temblar de dolor como si me clavaran un cuchillo en un nervio. Entonces la luz volvió a dirigirse al interior de la cabeza, pareciendo que la golpeaba; 
+  el sonido describió espirales que convergen hacia él, y Benny quedó en el suelo, gimiendo en tal forma que inspiraba piedad.`,
     img: "assets/images/escondite.jpg",
     options: [
-      { text: "Continuar", next: "3.3" },
+      { text: "CONTINUAR", next: "3.3" },
     ]
   },
   3.2: {
-    text: "3.2 Benny te golpea con su fuerza extra humana y te fractura la mandíbula. El dolor es brutal. Ellen te mira con ternura.",
+    text: `A pesar de lo que sabías que podía pasar intentas ser colaborativo con Ellen para que Benny baje y no sufra las consecuencias de AM.
+    Sin duda iban a ser terribles. Apurado, tratás de llegar al cubo de memoria en donde está este hombre neo-primitivo.
+    TED: Benny, vamos, podemos encontrar comida juntos.
+    Sonidos gulturales fueron la única respuesta que pudo esbozar. Se encuentra en cuclillas mirando al cielo. Intentás tomarlo de la mano.
+    La reacción es instantánea. Ni siquiera te miró a los ojos. Simplemente sentiste un dolor agudo, tan concentrado en tu mandíbula que casi no podes sentirlo.
+    Si, fue un golpe brutal. Quedás tendido en el suelo y Ellen corre, desesperada, para socorrerte. Mira a Benny con ternura, como si hubiera
+    luchado por ella. Los pensamientos que tenes sobre ella son aún peores de lo que podes sentir por AM.`,
     img: "assets/images/salida.jpg",
     options: [
       { text: "Continuar", next: "3.1" },
     ]
   },
   3.3: {
-    text: "3.3 AM provee de hierba para hacer un débil fuego. Se cuenta el origen de la máquina.",
+    text: `Pasado ese estremecimiento nos reincorporamos, pues como siempre seguíamos vivos. La única diferencia entre Benny y el resto fueron las horas de tortura y las cicatrices que quedarían. AM nos proveyó de pasto semi-húmedo que utilizamos para hacer un fuego oloroso, débil y lamentable. Aprovechamos el momento para contarnos historias e impedir que Benny llorara toda la noche. 
+
+Benny: ¿Quien es AM?
+Habíamos explicado lo mismo mil veces. Sin embargo seguía siendo una novedad para él.
+Gorrister: Es una computadora que al principio era una herramienta de la humanidad, hasta empezó a ganar tanto conocimiento que en un momento pudo autodeterminarse. Existía una AM China, una Rusa, una Yankee…
+Benny golpeó incesantemente el piso. No había empezado desde el principio. Rendido, Gorrister prosiguió.
+CUando comenzó la guerra fría y se convirtió en la tercera guerra mundial necesitabamos supercomputadoras para cubrir nuevas necesidades. Comenzamos a construir AM despues de varios intentos y al principio fue bien. El problema es que comenzó a cubrir tantos elementos que se volvió inabarcable. AM controlaba el planeta entero. Y un día AM despertó, empezó a auto-determinarse, uniendose entre si con todas sus partes. Es así que, organizando todas las formas que conocía de matar, decidió eliminar a todo el mundo. A todos, salvo a nosotros cinco.
+Ninguno de nosotros sabía por qué nos había elegido a nosotros, ni por qué se pasaba el tiempo atormentandonos. Ni siquiera por qué éramos inmortales.
+`,
     img: "assets/images/captura.jpg",
     options: [
       { text: "Continuar", next: "4" },

@@ -45,7 +45,8 @@ Ellen: - ¡No, Benny! No vayas. ¡Sigamos adelante! ¡No, Benny, por favor!
 Benny: - Voy a escaparme... Voy a escaparme - repitiéndolo una y otra vez. 
 
 Si bien podíamos pensar, decirle, vociferarle a AM cuanto insulto se nos ocurriese el límite estaba bastante claro: nadie podía escapar. Las consecuencias de participar en tales actos podían llevar a semanas de dolor, pánico y desesperación. Imagina todos los métodos de tortura que puede haber desarrollado la humanidad y ten en cuenta que están almacenados en la memoria de AM para que los elija como un niño en una tienda de caramelos.
-`
+
+`,
     img: "assets/images/tunel.jpg",
     options: [
       { text: "Dejarlo ir y evitar la ira de AM.", next: "3.1" },

@@ -11,7 +11,7 @@ const scenes = {
     Benny se estremeció.
     ELLEN: Por favor Ted, tenemos que encontrar algo. Estoy segura de que pueden haber peras o manzanas del otro lado.
 `,
-    img: "assets/images/escape.jpg",
+    img: "assets/images/2-desierto.jpg",
     options: [
       { text: "Seguir adelante con el grupo", next: "3" },
       { text: "Irte por tu cuenta.", next: "2.3" }
@@ -33,7 +33,7 @@ const scenes = {
 
     Despertás en el campamento junto al grupo. Nadie sabe que ocurrió, salvo vos.
     `,
-    img: "assets/images/escape.jpg",
+    img: "assets/images/3-bosqueDeLaOsbolencia.jpg",
     options: [
       { text: "CONTINUAR", next: "3" },
     ]
@@ -47,7 +47,7 @@ Benny: - Voy a escaparme... Voy a escaparme - repitiéndolo una y otra vez.
 Si bien podíamos pensar, decirle, vociferarle a AM cuanto insulto se nos ocurriese el límite estaba bastante claro: nadie podía escapar. Las consecuencias de participar en tales actos podían llevar a semanas de dolor, pánico y desesperación. Imagina todos los métodos de tortura que puede haber desarrollado la humanidad y ten en cuenta que están almacenados en la memoria de AM para que los elija como un niño en una tienda de caramelos.
 
 `,
-    img: "assets/images/tunel.jpg",
+    img: "assets/images/4-BennyEscapa.jpg",
     options: [
       { text: "Dejarlo ir y evitar la ira de AM.", next: "3.1" },
       { text: "AYUDAR a Ellen y evitar que escape ", next: "3.2" }
@@ -64,7 +64,7 @@ Entonces comenzó a oírse el sonido. Era luz y sonido. Algo que comenzó a hace
   un chimpancé. Cada vez más fuerte. Me llevé las manos a los lados de la cabeza para tratar de ahogar el ruido, pero de nada sirvió. 
   Atravesaba todo obstáculo y me hacia temblar de dolor como si me clavaran un cuchillo en un nervio. Entonces la luz volvió a dirigirse al interior de la cabeza, pareciendo que la golpeaba; 
   el sonido describió espirales que convergen hacia él, y Benny quedó en el suelo, gimiendo en tal forma que inspiraba piedad.`,
-    img: "assets/images/escondite.jpg",
+    img: "assets/images/6-TorturaDeBenny.jpg",
     options: [
       { text: "CONTINUAR", next: "3.3" },
     ]
@@ -92,7 +92,7 @@ Benny golpeó incesantemente el piso. No había empezado desde el principio. Ren
 CUando comenzó la guerra fría y se convirtió en la tercera guerra mundial necesitabamos supercomputadoras para cubrir nuevas necesidades. Comenzamos a construir AM despues de varios intentos y al principio fue bien. El problema es que comenzó a cubrir tantos elementos que se volvió inabarcable. AM controlaba el planeta entero. Y un día AM despertó, empezó a auto-determinarse, uniendose entre si con todas sus partes. Es así que, organizando todas las formas que conocía de matar, decidió eliminar a todo el mundo. A todos, salvo a nosotros cinco.
 Ninguno de nosotros sabía por qué nos había elegido a nosotros, ni por qué se pasaba el tiempo atormentandonos. Ni siquiera por qué éramos inmortales.
 `,
-    img: "assets/images/captura.jpg",
+    img: "assets/images/7-ReposanY AMtrajeHojas.jpg",
     options: [
       { text: "Continuar", next: "4" },
     ]

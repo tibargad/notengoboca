@@ -12,9 +12,6 @@ body {
   overflow-y: scroll;
 }
 
-
-
-
 #noise {
   position: fixed;
   top: 0;
@@ -22,13 +19,14 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: 0.05;
+  opacity: 0.18;
   pointer-events: none;
 }
 
 .scene {
   text-align: center;
   padding: 20px;
+  padding-top: 20px;
   max-width: 600px;
   transition: opacity 0.3s ease;
   position: relative;
@@ -49,7 +47,7 @@ body {
 }
 
 @keyframes glitch {
-  0% { transform: translateX(0); opacity: 0; }
+  0% { transform: translateX(0); opacity: 5; }
   25% { transform: translateX(-5px); opacity: 0.1; }
   50% { transform: translateX(5px); opacity: 0.2; }
   100% { transform: translateX(0); opacity: 0; }
@@ -61,6 +59,7 @@ body {
   margin-bottom: 20px;
   border: 1px solid #00ffcc;
   box-shadow: 0 0 15px #00ffcc80;
+  margin-top: 10px; 
 }
 
 .options button {
@@ -92,7 +91,7 @@ body {
 #mute-btn {
   position: fixed;
   top: 20px;
-  right: 20px;
+  right: 5px;
   background: black;
   border: 1px solid #00ffcc;
   color: #00ffcc;

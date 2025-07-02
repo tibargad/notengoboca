@@ -65,24 +65,24 @@ const scenes = {
 </p>
 <p>Las lágrimas bañaron sus ojos. Movió las manos sin saber qué hacer. Era demasiado tarde. Nadie quería estar al lado de Benny cuando pasaría lo que sabíamos que iba a pasar </p>
 
-Entonces comenzó a oírse el sonido. Era luz y sonido. Algo que comenzó a hacer brillar los ojos de Benny y a pulsar con creciente intensidad y con sonoridades no bien definidas,
- que se fueron convirtiendo en ensordecedoras y luminosas a medida que la luz-sonido aumentaba. Sus manos se cruzaron sobre su pecho como las de
-  un chimpancé. Cada vez más fuerte. Me llevé las manos a los lados de la cabeza para tratar de ahogar el ruido, pero de nada sirvió. 
-  Atravesaba todo obstáculo y me hacia temblar de dolor como si me clavaran un cuchillo en un nervio. Entonces la luz volvió a dirigirse al interior de la cabeza, pareciendo que la golpeaba; 
-  el sonido describió espirales que convergen hacia él, y Benny quedó en el suelo, gimiendo en tal forma que inspiraba piedad.`,
+  <p>Entonces comenzó a oírse el sonido. Era luz y sonido. Algo que comenzó a hacer brillar los ojos de Benny y a pulsar con creciente intensidad y con sonoridades no bien definidas,</p>
+  <p>que se fueron convirtiendo en ensordecedoras y luminosas a medida que la luz-sonido aumentaba. Sus manos se cruzaron sobre su pecho como las de</p>
+  <p>un chimpancé. Cada vez más fuerte. Me llevé las manos a los lados de la cabeza para tratar de ahogar el ruido, pero de nada sirvió. </p>
+  <p>Atravesaba todo obstáculo y me hacia temblar de dolor como si me clavaran un cuchillo en un nervio. Entonces la luz volvió a dirigirse l interior de la cabeza, pareciendo que la golpeaba; </p>
+  <p>el sonido describió espirales que convergen hacia él, y Benny quedó en el suelo, gimiendo en tal forma que inspiraba piedad</p>`,
     img: "assets/images/6-TorturaDeBenny.jpg",
     options: [
       { text: "CONTINUAR", next: "3.3" },
     ]
   },
   3.2: {
-    text: `A pesar de lo que sabías que podía pasar intentas ser colaborativo con Ellen para que Benny baje y no sufra las consecuencias de AM.
-    Sin duda iban a ser terribles. Apurado, tratás de llegar al cubo de memoria en donde está este hombre neo-primitivo.
-    TED: Benny, vamos, podemos encontrar comida juntos.
-    Sonidos gulturales fueron la única respuesta que pudo esbozar. Se encuentra en cuclillas mirando al cielo. Intentás tomarlo de la mano.
-    La reacción es instantánea. Ni siquiera te miró a los ojos. Simplemente sentiste un dolor agudo, tan concentrado en tu mandíbula que casi no podes sentirlo.
-    Si, fue un golpe brutal. Quedás tendido en el suelo y Ellen corre, desesperada, para socorrerte. Mira a Benny con ternura, como si hubiera
-    luchado por ella. Los pensamientos que tenes sobre ella son aún peores de lo que podes sentir por AM.`,
+    text: `<p>A pesar de lo que sabías que podía pasar intentas ser colaborativo con Ellen para que Benny baje y no sufra las consecuencias de AM.</p>
+    <p>Sin duda iban a ser terribles. Apurado, tratás de llegar al cubo de memoria en donde está este hombre neo-primitivo</p>
+    <p>TED: Benny, vamos, podemos encontrar comida junts.</p>
+    <p>Sonidos gulturales fueron la única respuesta que pudoesbozar. Se encuentra en cuclillas mirando al cielo. Intentás tomarlo de la mano.</p>
+    <p>La reacción es instantánea. Ni siquiera te miró a los ojos. Simplemente sentiste un dolor agudo, tan concentrado en tu mandíbula que casino podes sentirlo.</p>
+    <p>Si, fue un golpe brutal. Quedás tendido en el suelo y Ellen corre, desesperada, para socorrerte. Mira a Benny con ternura, como si hubira</p>
+    <p>luchado por ella. Los pensamientos que tenes sobre ella son aún peores de lo que podes sentir por AM.</p>`,
     img: "assets/images/salida.jpg",
     options: [
       { text: "Continuar", next: "3.1" },
@@ -91,29 +91,42 @@ Entonces comenzó a oírse el sonido. Era luz y sonido. Algo que comenzó a hace
   3.3: {
     text: `<p>Pasado ese estremecimiento nos reincorporamos, pues como siempre seguíamos vivos. La única diferencia entre Benny y el resto fueron las horas de tortura y las cicatrices que quedarían. AM nos proveyó de pasto semi-húmedo que utilizamos para hacer un fuego oloroso, débil y lamentable. Aprovechamos el momento para contarnos historias e impedir que Benny llorara toda la noche. </p>
 
-<p>Benny: ¿Quien es AM?</p>
-<p>Habíamos explicado lo mismo mil veces. Sin embargo seguía siendo una novedad para él.</p>
-<p>Gorrister: Es una computadora que al principio era una herramienta de la humanidad, hasta empezó a ganar tanto conocimiento que en un momento pudo autodeterminarse. Existía una AM China, una Rusa, una Yankee…</p>
-<p>Benny golpeó incesantemente el piso. No había empezado desde el principio. Rendido, Gorrister prosiguió.</p>
-<p>Cuando comenzó la guerra fría y se convirtió en la tercera guerra mundial necesitabamos supercomputadoras para cubrir nuevas necesidades. Comenzamos a construir AM despues de varios intentos y al principio fue bien. El problema es que comenzó a cubrir tantos elementos que se volvió inabarcable. AM controlaba el planeta entero. Y un día AM despertó, empezó a auto-determinarse, uniendose entre si con todas sus partes. Es así que, organizando todas las formas que conocía de matar, decidió eliminar a todo el mundo. A todos, salvo a nosotros cinco.</p>
-<p>Ninguno de nosotros sabía por qué nos había elegido a nosotros, ni por qué se pasaba el tiempo atormentandonos. Ni siquiera por qué éramos inmortales.</p>
+    <p>Benny: ¿Quien es AM?</p>
+    <p>Habíamos explicado lo mismo mil veces. Sin embargo seguía siendo una novedad para él.</p>
+    <p>Gorrister: Es una computadora que al principio era una herramienta de la humanidad, hasta empezó a ganar tanto conocimiento que en un momento pudo autodeterminarse. Existía una AM China, una Rusa, una Yankee…</p>
+    <p>Benny golpeó incesantemente el piso. No había empezado desde el principio. Rendido, Gorrister prosiguió.</p>
+    <p>Cuando comenzó la guerra fría y se convirtió en la tercera guerra mundial necesitabamos supercomputadoras para cubrir nuevas necesidades. </p>
+    <p>Comenzamos a construir AM despues de varios intentos y al principio fue bien. El problema es que comenzó a cubrir tantos elementos que se volvió inabarcable. AM controlaba el planeta entero. </p>
+    <p>Y un día M despertó, empezó a auto-determinarse, uniendose entre si con todas sus partes.</p> 
+    <p>Es así que, organizando todas las formas que conocía de matar, decidió eliminar a todo el mundo.</p> 
+    <p>A todos, salvo a nosotros cinco.</p>
+    <p>Ninguno de nosotros sabía por qué nos había elegido a nosotros, ni por qué se pasaba el tiempo atormentandonos. Ni siquiera por qué éramos inmortales.</p>
 `,
-    img: "assets/images/7-ReposanY AMtrajeHojas.jpg",
+    img: "assets/images/8-Origen de AM.jpg",
     options: [
       { text: "Continuar", next: "4" },
     ]
   },
   4: {
-    text: "4. AM Lanza un ataque psicológico sobre el grupo. Huelen y sienten un ser gigante que se acerca.",
-    img: "assets/images/descubierto.jpg",
+    text: `<p>Sentimos el zumbido de varias computadoras que se activaron en serie alrededor nuestro,  a las que se fueron incorporando otras, acumulándose y desesperándonos. </p>
+
+    <p>Algo se movía hacia nosotros en la oscuridad. Enorme, bamboleante, peludo, húmedo, y se dirigía hacia nosotros. No podíamos verlo, pero tuvimos la impresión de su gran tamaño que venia hacia donde estábamo.</p> 
+    <p>Un gran peso se nos acercaba, desde la oscuridad, y era más que nada la sensación de presión, del aire comprimido dentro de un espacio pequeño, que expandía las paredes invisibles de una esfera. Benny comenzó a lloriquear.</p> 
+    <p>El labio inferior de Nimdok empezó a temblar, mientras él lo mordía para tratar de disimular. Ellen se deslizó por el piso de metal para acurrucarse al lado de Gorrister</p>
+`,
+    img: "assets/images/9-Ataque de AM y Presencia Gigante.jpg",
     options: [
-      { text: "4a	Salís corriendo buscando refugio.", next: "4.1" },
-      { text: "4b Quedarte con el grupo a enfrentar el monstruo.", next: "4.2" }
+      { text: "Quedarte con el grupo a enfrentar el monstruo.", next: "4.1" },
+      { text: "Salir corriendo a buscar refugio.", next: "4.2" }
     ]
   },
   4.1: {
-    text: "4.1 Era un engaño psicológico. Te escapaste gritando como un maniático. El resto se desentiende.",
-    img: "assets/images/descubierto.jpg",
+    text: `<p>Huí como una cucaracha, adentrándome en la oscuridad, mientras ese algo espantoso se movía detrás de mí. </p>
+    <p>Los otros quedaron atrás, y se acercaron a la luz incierta, riendo... el coro histérico de sus risas enloquecidas seelevaba en la oscuridad como si fuera humo espeso, de muchos colores.</p> 
+    <p>Huí rápidamente y me escondí.</p>
+
+`,
+    img: "assets/images/10-Sales Corriendo.jpg",
     options: [
       { text: "Continuar.", next: "4.3" },
     ]
@@ -126,21 +139,35 @@ Entonces comenzó a oírse el sonido. Era luz y sonido. Algo que comenzó a hace
     ]
   },
   4.3: {
-    text: "4.3 Te echas a llorar desconsoladamente. Pedís morir.",
-    img: "assets/images/descubierto.jpg",
+    text: `Yo era el único que todavía estaba en una, pieza, y sano. AM no había estado hurgueteando en mi mente. Solamente tenía que sufrir lo que nos preparaba para atormentarnos. 
+    Todas las desilusiones, todos los tormentos y las pesadillas. Pero los otros cuatro, esa ralea, estaban bien de acuerdo y en contra de mí. 
+    Si no hubiera tenido que estar defendiéndome de ellos, que estar siempre alerta y vigilante, tal vez hubiera sido más fácil defenderme de AM. Entonces llegué al límite de mi resistencia y comencé a llorar.
+     5 ¡Oh, jesús, dulce jesús; si alguna vez existió jesús o si en realidad existe Dios! Por favor, por favor, déjanos salir de aquí o haznos morir. 
+     Porque en ese momento pensé que comprendía todo, y que por lo tanto podía verbalizarlo: AM pensaba mantenernos en sus entrañas por siempre jamas, retorciendo nuestras mentes y cuerpos, torturándonos para toda la eternidad. 
+     La máquina nos odiaba como ninguna otra criatura había odiado antes. Y estábamos indefensos. Además, se tornó insoportablemente claro que si existía un dulce jesús, si se podía creer en un dios, ese dios era AM.`,
+    img: "assets/images/12-Deseas morir.jpg",
     options: [
       { text: "Continuar", next: "4.4" },
     ]
   },
   4.4: {
-    text: "4.4 Un huracán azota al grupo. Intentan aferrarse a lo que pueden. Te encontrás con AM en tu mente.",
-    img: "assets/images/descubierto.jpg",
+    text: `<p>El huracán nos golpeó con la fuerza de un glaciar que descendiera rugiendo hacia el mar. Era una presencia palpable. Los vientos, desatados, nos azotaban, empujándonos hacia el sitio de donde partiéramos, al interior de los corredores tortuosos franqueados por computadoras, que se hallaban sumidas en la oscuridad. El viento parecía el grito alucinante de un enorme pájaro demente, emitido mientras batía sus inmensas alas.</p> 
+    <p>AM entró en mi mente. Pareció sonreírse frente al hueco que se hallaba en el centro de mi cerebro y a los débiles y algodonados murmullos de las cosas que farfullaban en el fondo, sin sentido pero sin pausa. AM dijo finalmente, gracias a un pilar de acero inoxidable que sostenía letras de neón: </p>
+    <p>ODIO. DÉJENME DECIRLES TODO LO QUE HE LLEGADO A ODIARLOS DESDE QUE COMENCE A VIVIR, MI COMPLEJO SE HALLA OCUPADO POR 387.400 MILLONES DE CIRCUITOS IMPRESOS EN FINISIMAS CAPAS. SI LA PALABRA ODIO SE HALLARA GRABADA EN CADA NANOANGSTROM DE ESOS CIENTOS DE MILLONES DE MILLAS NO IGUALARIA A LA BILLONESIMA PARTE DEL ODIO QUE SIENTO POR LOS SERES HUMANOS EN ESTE MICROINSTANTE POR TI. ODIO. ODIO.</p>
+    <p>Le habíamos dado una conciencia. Sin advertirlo, naturalmente. Pero de todas formas se la habíamos dado. Y finalmente estaba atrapada. Le habíamos permitido que pensara, pero no le expresamos qué debía hacer con ese don. En un rapto de furia, de loco frenesí, nos había matado a casi todos, y sin embargo seguía atrapada. No podía divagar, no podía sorprenderse, no podía pertenecer. Sólo podía ser. Y entonces, con el desprecio insano con que todas las máquinas consideran a las criaturas débiles y suaves que las han fabricado, había buscado su venganza.</p> 
+    <p>No podíamos morir. Lo habíamos intentado. Hablamos tratado de suicidarnos, oh sí, uno o dos de nosotros lo habíamos intentado. Pero AM nos lo había impedido. Creo que en realidad fuimos nosotros mismos los que así lo deseamos.</p>
+`,
+    img: "assets/images/13-Aparece el Tornado.jpg",
     options: [
       { text: "Continuar", next: "5" },
     ]
   },
   5: {
-    text: "5. El grupo se encuentra con un ser mitológico alado. AM dice que para comer necesitan vencerlo",
+    text: `<p>Gigantesco. Las palabras para describirlo serían: monstruoso, grotesco, colosal, ciclópeo, atroz, indescriptible. Allí estaba, en un saliente sobre nosotros: el pájaro de los vientos que latía con su propia respiración irregular, su cuello de serpiente se arqueaba dirigiéndose a los lugares sombríos situados por debajo del polo Norte, sosteniendo una cabeza tan grande como una mansión estilo Tudor, con un pico que se abría lentamente.</p>
+     <p>Se movió una vez más y levantó sus enormes alas coloreadas por el sudor en un movimiento que fue como una convulsión. Luego quedó inmóvil y se durmió. Espolines. Pico agudo. Uñas. Hojas cortantes. Se durmió. </p>
+     <p>AM apareció ante nosotros bajo el aspecto de una zarza ardiente y nos comunicó que si queríamos comer podíamos matar al pájaro de los huracanes. No había comido desde hacía mucho tiempo, pero a pesar de ello Gorrister se limitó a encogerse de hombro.</p> 
+     <p>Benny comenzó a temblar y a babear. Ellen lo abrazó.</p>
+`,
     img: "assets/images/descubierto.jpg",
     options: [
       { text: "5a Pedirle a AM armas para poder vencer.", next: "6" },
@@ -221,7 +248,7 @@ window.addEventListener('DOMContentLoaded', () => {
   // Configuración de audio
   const music = document.getElementById("music");
   const muteBtn = document.getElementById("mute-btn");
-  music.volume = 0.4;
+  music.volume = 0.8;
   
   const playMusic = () => {
     music.play().catch(e => console.warn("Audio bloqueado:", e));

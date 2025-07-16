@@ -1,6 +1,8 @@
  <!DOCTYPE html>
 <html lang="es">
 <head>
+
+  
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>NO TENGO BOCA Y DEBO INTERACTUAR</title>
@@ -9,7 +11,10 @@
 </head>
 <body>
   <!-- Canvas para efecto de ruido estático -->
+    
+  
   <canvas id="noise"></canvas>
+  
 
   <!-- Audio -->
   <audio id="glitch-sound" src="assets/sonidos/glitch.mp3" preload="auto"></audio>
@@ -19,16 +24,32 @@
 
   <!-- Escena -->
   <div id="scene" class="scene">
-    <img src="assets/images/1-CuevaAM.jpg" alt="">
-    <p>Tu nombre es Ted. Te despertás sobre un piso helado de metal. 
+  <!-- Título principal -->
+  <h1 class="scene-title">NO TENGO BOCA Y DEBO INTERACTUAR</h1>
+  <h3 class="scene-title">hecho por B.D.E. ARTES MULTIMEDIALES</h3>
+
+
+  <!-- Imagen -->
+  <img src="assets/images/1-CuevaAM.jpg" alt="Cueva AM">
+
+  <!-- Texto narrativo -->
+  <p>
+    Tu nombre es Ted. Te despertás sobre un piso helado de metal. 
     A tu alrededor partes de chatarra tecnológica se extienden por una habitación fría y desoladora.
-     No estás solo. Nimdok, Gorrister, Benny, Ellie. Tus compañeros eternos de grupo. No existe nadie más que ustedes. 
-     Solo las máquinas. Y la supercomputadora. Lo único que te mantiene vivo. AM.</p>
-    <div class="options">
-      <button onclick="nextScene('2')">Salir al desierto a buscar alimentos</button>
-     <!-- <button onclick="nextScene('obedecer')">Separarte del resto del grupo</button>-->
-    </div>
+    No estás solo. Nimdok, Gorrister, Benny, Ellie. Tus compañeros eternos de grupo. No existe nadie más que ustedes. 
+    Solo las máquinas. Y la supercomputadora. Lo único que te mantiene vivo. AM.
+  </p>
+
+  <!-- Opciones -->
+  <div class="options">
+    <button onclick="nextScene('2')">Salir al desierto a buscar alimentos</button>
+    <!-- <button onclick="nextScene('obedecer')">Separarte del resto del grupo</button> -->
   </div>
+</div>
+
+  </div>
+
+  
 
 
   <script src="script.js"></script>

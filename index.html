@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>No tengo boca - Interactivo</title>
+  <title>NO TENGO BOCA Y DEBO INTERACTUAR</title>
   <link rel="stylesheet" href="estilos.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Canvas para efecto de ruido estático -->
@@ -14,18 +14,22 @@
   <!-- Audio -->
   <audio id="glitch-sound" src="assets/sonidos/glitch.mp3" preload="auto"></audio>
   <audio id="click-sound" src="assets/sonidos/click.mp3" preload="auto"></audio>
-  <audio id="music" src="assets/sonidos/musica.mp3" preload="auto" loop></audio>
+  <audio id="music" src="assets/sonidos/drone.wav" preload="auto" loop></audio>
   <button id="mute-btn">🔊</button>
 
   <!-- Escena -->
   <div id="scene" class="scene">
-    <img src="assets\images/1-CuevaAM.jpg" alt="">
-    <p id="intro-text"></p>
+    <img src="assets/images/1-CuevaAM.jpg" alt="">
+    <p>Tu nombre es Ted. Te despertás sobre un piso helado de metal. 
+    A tu alrededor partes de chatarra tecnológica se extienden por una habitación fría y desoladora.
+     No estás solo. Nimdok, Gorrister, Benny, Ellie. Tus compañeros eternos de grupo. No existe nadie más que ustedes. 
+     Solo las máquinas. Y la supercomputadora. Lo único que te mantiene vivo. AM.</p>
     <div class="options">
       <button onclick="nextScene('2')">Salir al desierto a buscar alimentos</button>
      <!-- <button onclick="nextScene('obedecer')">Separarte del resto del grupo</button>-->
     </div>
   </div>
+
 
   <script src="script.js"></script>
 </body>
